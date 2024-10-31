@@ -1,10 +1,13 @@
 ## Note
-This project is the php implementation of tls-sig-api-v2. Previous asymmetric keys cannot use APIs of this version. To enable them to use APIs of this version,[see here](https://github.com/tencentcloud/tls-sig-api-php)。
+This PHP project implements Tencent-RTC's UserSig authentication, providing a secure server-side method for generating signatures to protect the keys from leakage.
 
-## integration
+![](https://cloudcache.intl.tencent-cloud.com/cms/backend-cms/12569f72920411ef810152540055f650.png)
+
+
+## Integration
 You can use composer or source code integration.
 
-### composer integration
+#### composer integration
 ``` json
 {
   "require": {
@@ -13,10 +16,10 @@ You can use composer or source code integration.
 }
 ```
 
-### source code integration
+#### source code integration
 Download `TLSSigAPIv2.php` to the project.
 
-## use
+### Usage
 ``` php
 <?php
 
